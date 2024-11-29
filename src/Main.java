@@ -9,7 +9,8 @@ public class Main {
         while (total <= 2_459_000) {
             total = total + salary;
             month++;
-        } System.out.println("Месяц " + month + " сумма накоплений равна " + total + " рублей");
+            System.out.println("Месяц " + month + " сумма накоплений равна " + total + " рублей");
+        }
 
         System.out.println();
         System.out.println("Task number 2");
@@ -17,7 +18,8 @@ public class Main {
         while (i <= 9) {
             i++;
             System.out.print(" " + i + " ");
-        } System.out.println();
+        }
+        System.out.println();
         for (i = 10; i >= 1; i--) {
             System.out.print(" " + i + " ");
         }
@@ -83,7 +85,7 @@ public class Main {
         int comet = 0;
         while (comet <= 2024) {
             comet += 79;
-            if (comet >= 2024 - 200 && comet <= 2024 + 100) {
+            if ((comet >= 2024 - 200) && (comet <= 2024 + 100)) {
                 System.out.println(comet);
             }
         }
